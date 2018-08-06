@@ -54,12 +54,12 @@ const int dy[] = { -1, 1, 0, 0, -1, 1, -1, 1 };
 
 const int MOD = 1000000007;
 
-const int N = 1e5 + 50;
+const int N = 1e5+10;
 
-int Lg[N];
+int Lg[N+10];
 int pw[100];
-int ST[N][100];
-int arr[N];
+int ST[N+10][100];
+int arr[N+10];
 void init() {
 	Lg[0] = -1;
 	for (int i = 1; i <= N; i++) {
